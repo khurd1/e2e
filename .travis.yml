@@ -5,6 +5,8 @@ cache:
   directories:
     - ~/.npm
     - node_modules
+before_install:
+  - cypress install
 install:
   - npm install
 script:
