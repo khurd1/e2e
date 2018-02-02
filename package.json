@@ -2,7 +2,8 @@
   "requires": true,
   "lockfileVersion": 1,
   "scripts": {
-    "cypress:open": "cypress open"
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
   },
   "dependencies": {
     "@cypress/listr-verbose-renderer": {
